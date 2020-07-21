@@ -1,2 +1,3 @@
 # HexMapTutorial
- Following the Hex Map tutorial from catlikecoding.com
+
+Following the [Hex Map](https://catlikecoding.com/unity/tutorials/hex-map/) tutorial from catlikecoding.com
