@@ -43,3 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2770ca46a03cd4b46a4e6bd0920f1d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _coordinates:
+    _x: 0
+    _z: 0
+  neighbors:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

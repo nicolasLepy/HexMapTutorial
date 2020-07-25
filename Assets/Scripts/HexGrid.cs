@@ -57,6 +57,12 @@ public class HexGrid : MonoBehaviour
         cell.coordinates = HexCoordinates.FromOffsetCoordinates(x, z);
         cell.color = defaultColor;
 
+        //Set neighbors
+        if (x > 0)
+        {
+            cell.SetNeighbor(HexDirection.W, cells[i-1]);
+        }
+        
         Text label = Instantiate<Text>(cellLabelPrefab);
         label.rectTransform.SetParent(gridCanvas.transform, false);
         label.rectTransform.anchoredPosition = new Vector2(position.x, position.z);
